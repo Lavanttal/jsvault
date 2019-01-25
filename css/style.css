@@ -1,0 +1,51 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url("../img/cubes.png")
+}
+
+#greenBlock {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 5px;
+    float: right;
+}
+
+#redBlock {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 5px;
+    float: right;
+}
+
+.buttonNumber {
+    background-color: rgb(61, 76, 85); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-image: url("../img/cubes.png")
+  }
+  #animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: green;
+  }
+
+  #animate2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+  }
